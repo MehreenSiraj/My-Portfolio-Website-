@@ -1,0 +1,221 @@
+/* Set a global font and color scheme */
+body {
+    font-family: Arial, sans-serif;
+    color: hsl(0, 86%, 3%);
+    background-color: hwb(0 36% 60%);
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header and navigation */
+  header {
+
+    color: rgb(96, 66, 66);
+    background-color: rgb(26, 177, 228);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  header .name {
+    font-size: 24px;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: rgb(157, 87, 87);
+    text-decoration: none;
+  }
+  
+  /* Style the main content sections */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  
+  }
+  
+  /* Style the experience and education items */
+  .experience-item, .education-item {
+    margin-bottom: 10px;
+  }
+  
+  .experience-item h3, .education-item h3 {
+    margin-bottom: 5px;
+  }
+  
+  .experience-item p, .education-item p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .experience-item ul, .education-item ul {
+    margin: 10px 0 0 20px;
+    list-style: disc;
+  }
+  
+  /* Style the project items */
+  .project-item {
+    margin-bottom: 10px;
+  }
+  
+  .project-item h3 {
+    margin-bottom: 5px;
+  }
+  
+  .project-item p {
+    margin: 0;
+    font-size: 14px;
+  }
+  body {
+    background-image: url('image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  body {
+    background: url('image.jpg') center no-repeat;
+    background-size: cover;
+  }
+  header {
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(177, 85, 85);
+}
+
+nav {
+  background-color: rgb(222, 150, 150);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+nav a {
+  color: rgb(162, 48, 48);
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+section {
+  width: 30%;
+  padding: 20px;
+}
+/* Responsive layout */
+@media (max-width: 800px) {
+  main {
+    flex-direction: column;
+  }
+  section {
+    width: 100%;
+  }
+}
+
+/* Grid layout */
+section#projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+/* Color and typography */
+body {
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+}
+header {
+  background-color: #eee;
+}
+nav a {
+  color: #f60;
+  font-weight: bold;
+}
+
+/* Images and graphics */
+img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Hover effects */
+button:hover {
+  background-color: #f60;
+  color: white;
+}
+nav a:hover {
+  color: white;
+  background-color: #f60;
+}
+.portfolio-image {
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+}
+.facebook {
+  background-image: url('/path/to/facebook.png');
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+}
+
+.twitter {
+  background-image: url('/path/to/twitter.png');
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+}
+
+.Youtube {
+  background-image: url('/path/to/youtube.png');
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+}
+
+.linkedin {
+  background-image: url('/path/to/linkedin.png');
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+}
+
+.GitHub {
+  background-image: url('/path/to/github.png');
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+}
+
+  h2> contact {
+      padding-top: 20px;
+      padding-right: 40px;
+      padding-bottom: 20px;
+      padding-left: 50px;
+       color: #0077ff;
+  }
+
+footer {
+  background-color: light
+}
